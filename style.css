@@ -1,6 +1,3 @@
-/* Import Google font - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
 /* Menargetkan semua elemen dalam dokumen html */
 * {
   margin: 0;
@@ -15,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f9d7e6;
+  background: linear-gradient(to bottom right, #5761B2, #1FC5A8);
 }
 
 /* Mengatur tata letak elemen dalam kalkulator */
@@ -25,8 +22,8 @@ body {
   width: 100%;
   border-radius: 12px;
   padding: 10px 20px 20px;
-  background-image: url(download.jpg);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  background-color: rgb(195, 228, 250);
+  box-shadow: 0 5px 10px rgb(61, 95, 91);
 }
 
 /* Mengatur tata letak kalkulator */
@@ -62,7 +59,7 @@ body {
   transform: scale(0.99);
 }
 
-/* Mengatur warna tombol kalkulator */
+/* Mengatur warna simbol kalkulator */
 .operator {
-  color: #2f9fff;
+  color: #0804ff;
 }
